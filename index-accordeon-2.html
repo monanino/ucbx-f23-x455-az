@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>  </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="container">
+  <h2> UCBX X455 course FA'23 </h2>
+  <p> Homework: Accordeon © </p>
+  <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-lime w3-left-align"> Open Section 1  
+   </button>
+  <div id="Demo1" class="w3-container w3-hide"> 
+
+    <div class="w3-left-align w3-hide-small">
+      <a href="index-color-gen-blue.html" class="w3-bar-item w3-button w3-indigo"> Accordeon Line 1 
+      </a>
+    </div>
+    <div class="w3-left-align w3-hide-small">
+      <a href="index-img-text-block-1.html" class="w3-bar-item w3-button w3-indigo"> Accordeon Line 2 </a>
+    </div>
+    <div class="w3-left-align w3-hide-small">
+      <a href="index-slideshow-1.html" class="w3-bar-item w3-button w3-indigo"> Accordeon Line 3 </a>
+    </div> 
+    <div class="w3-left-align w3-hide-small">
+      <a href="index-lipsum-1.html" class="w3-bar-item w3-button w3-indigo"> Accordeon Line 4 </a>
+    </div>
+  <div class="w3-left-align w3-hide-small">
+    <a href="index-lipsum-2.html" class="w3-bar-item w3-button w3-indigo"> Accordeon Line 5 </a>
+  </div>
+</div>
+<script>
+  function myFunction(id) 
+  { var x = document.getElementById(id); 
+  if (x.className.indexOf("w3-show") == -1) 
+    { x.className += "w3-show"; }
+   else { 
+    x.className = x.className.replace("w3-show", ""); 
+        }
+  }
+</script>
+ </body>
+</html>

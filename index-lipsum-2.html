@@ -1,0 +1,57 @@
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .column { float: left;
+              width: 90%;
+              padding: 20px;
+            }
+    .row::after { content: "";
+                  display: table;
+                  clear: both;
+                }
+    /* Responsive Layout */
+    @media screen and (max-width: 600px)
+      { .column { width: 100%;}
+      }
+   ol { background: pink; padding: 40px;}
+   ul {background: black; padding: 20px;} 
+  </style>
+</head>
+<body>
+  <div class="row"> </div>
+  <h2> Homework: Styling List </h2>
+  <ol> 
+    <li> Fabrics 1 </li>
+    <li> Fabrics 2 </li>
+    <li> Fabrics 3 </li>
+    <li> Fabrics 4 </li>
+    <li> Fabrics 5 </li>
+    <li> Fabrics 6 </li>
+    <li> Fabrics 7 </li>
+    <li> Fabrics 8 </li>
+    <li> Fabrics 9 </li>
+    <li> Fabrics 10 </li>
+    <li> Fabrics 11 </li>
+    <li> Fabrics 12 </li>
+  </ol>
+  <h2> Styling List Price </h2>
+  <ol> 
+    <li> $ 100 </li>
+    <li> $ 200 </li>
+    <li> $ 300 </li>
+    <li> $ 400 </li>
+    <li> $ 500 </li>
+    <li> $ 600 </li>
+    <li> $ 700 </li>
+    <li> $ 800 </li>
+    <li> $ 800 </li>
+    <li> $ 1000 </li>
+    <li> $ 1200 </li>
+    <li> $ 1300 </li>
+  </ol>
+</body>
+</html>
